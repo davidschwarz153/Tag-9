@@ -1,0 +1,147 @@
+@font-face {
+    font-family: "Raleway";
+    src: url(../fonts/Raleway-Regular.ttf);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+    font-family: "Raleway";
+}
+
+
+
+
+header{
+    height: 76px;
+    background-color: aliceblue;
+    padding-top: 25px;    
+    border-bottom: 1px solid lightgray;
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    font-size: 1.3rem;
+    
+}
+
+nav ul li a{
+    color: #333;
+}
+
+
+nav a, nav ul a{
+    text-decoration: none;
+    font-family: "Raleway";
+
+}
+
+.logo  {
+    font-size: 2rem;
+    color:#666;
+}
+
+nav ul li a:hover{
+    color: #337ab7;
+}
+
+nav a:hover{
+    color: #333;
+}
+
+img{
+    width: 1512px;
+    height: 1009px;
+
+    position:absolute;
+    z-index: -1;
+}
+
+article{
+    display: flex;
+    justify-content: center;
+
+}
+
+div{
+    height: 222px;
+    width: 1027.98;
+    display: flexbox;
+    align-items: center;
+    margin-top: 330px;
+    color: white;
+    
+
+
+
+}
+
+div h1{
+    font-size: 6rem;;
+}
+
+div p{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 1.4rem;
+}
+
+div section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    font-size: 1.4rem;
+    gap: 10px;
+    
+}
+
+div section a{
+    width:200px;
+    height: 54px;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+div section a:nth-of-type(1){
+    background-color: #745CF9;
+    
+}
+
+div section a:nth-of-type(2){
+    border: 1px solid white;
+    
+}
+
+div section a:nth-of-type(1):hover{
+    background-color: rebeccapurple;
+}
+
+div section a:nth-of-type(2):hover{
+    background-color: white;
+    color:#333;
+}
+
+
+
+
